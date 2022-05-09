@@ -7,7 +7,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.title('My Parents New Healthy Diner')
 
 # List
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
 streamlit.header('Breakfast Favourites')
 streamlit.text("Omega 3 & Blueberry Oatmeal")
