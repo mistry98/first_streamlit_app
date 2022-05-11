@@ -7,7 +7,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.title('My Parents New Healthy Diner')
 
 streamlit.header('Breakfast Favourites')
-streamlit.text("Omega 3 & Blueberry Oatmeal" + streamlit.markdown(":bowtie:"))
+streamlit.text("Omega 3 & Blueberry Oatmeal")
 streamlit.text('Kale, Spinach & Rocket Smoothie')
 streamlit.text('Hard-Boiled Free-Range Egg')
 
